@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Blog Post</title>
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="assets/css/styles_articles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Responsive navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page content-->
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-lg-8">
+                    <!-- Post content-->
+                    <article>
+                        <!-- Post header-->
+                        <header class="mb-4">
+                            <!-- Post title-->
+                            <h1 class="fw-bolder mb-1">Administration Ytrack</h1>
+                        </header>
+                        <!-- Preview image figure-->
+                        <figure class="mb-4"><img class="img-fluid rounded" src="assets/img/ytrack.jpg" alt="..." /></figure>
+                        <!-- Post content-->
+                        <section class="mb-5">
+                            <h2 class="fw-bolder mb-4 mt-5">Dashboard</h2>
+                            <p class="fs-5 mb-4">Après avoir vu <a href="Ytrack.html">Ytrack côté étudiant</a>, nous allons voir Ytrack côté Admin.</p>
+                            <p class="fs-5 mb-4">Voici à quoi ressemble le dashboard des admins : </p>
+                            <img class="img-fluid rounded" src="assets/img/Ytrack_Admin1.png" alt="..." />
+                            <p class="fs-5 mb-4">Les deux éléments les plus importants de ce dashboard (ceux que l’on va traiter) sont « Objects » et « Event ».</p>
+                            <p class="fs-5 mb-4">La partie « Objects » sert à créer et gérer les exercices, les quêtes, les piscines…</p>
+                            <h2 class="fw-bolder mb-4 mt-5">Objets</h2>
+                            <p class="fs-5 mb-4">Voici la page Objects :</p>
+                            <img class="img-fluid rounded" src="assets/img/Ytrack_Admin2.png" alt="..." />
+                            <p class="fs-5 mb-4">Sur cette page, on peut gérer tous les objects (les éléments en bas).</p>
+                            <p class="fs-5 mb-4">Zoomons un peu sur un de ces éléments :</p>
+                            <img class="img-fluid rounded" src="assets/img/Ytrack_Admin3.png" alt="..." />
+                            <p class="fs-5 mb-4">Sur cet élément, on peut voir le nom de l’objet (ici CreateHybridCar), le type d’objet (ici exercice), on peut voir si l’objet est l’original ou un dupliqué, (ici CREATION donc l’objet original). La poubelle rouge sert à supprimer l’objet, les deux cartes en haut à droite servent à dupliquer l’objet. Et enfin le bouton EDIT qui sert à modifier l’objet.</p>
+                            <h2 class="fw-bolder mb-4 mt-5">EDIT d'objets</h2>
+                            <p class="fs-5 mb-4">Voyions sur quelle page on arrive lorsque l’on clique sur le bouton EDIT :</p>
+                            <img class="img-fluid rounded" src="assets/img/Ytrack_Admin4.png" alt="..." />
+                            <p class="fs-5 mb-4">On a toujours le nom de l’objet mais également la personne qui a créé l’objet (ici Romain Ranaivoson), et selon le type d’objet la page afficher sera différente. Ici on peut voir la page EDIT d’un exercice.</p>
+                            <p class="fs-5 mb-4">Sur celle-ci, on peut voir différents attributs pour l’objet :</p>
+                            <ul>
+                                <li>subject, qui est le lien vers le sujet de l’exercice</li>
+                                <li>language, qui est le langage à utiliser pour l’exercice</li>
+                                <li>testImage, qui est le nom de l’image <a href="https://www.docker.com/">Docker</a></li>
+                                <li>expectedFiles, qui est le nom de fichier attendu</li>
+                            </ul>
+                            <h2 class="fw-bolder mb-4 mt-5">Ajout d'objet</h2>
+                            <p class="fs-5 mb-4">Pour créer un objet, on retourne sur le dashboard et on clique sur « + ADD NEW OBJECT ».</p>
+                            <img class="img-fluid rounded" src="assets/img/Ytrack_Admin5.png" alt="..." />
+                            <p class="fs-5 mb-4">Ensuite, on arrive sur une page sur laquelle on choisi le nom et le type de l’objet.</p>
+                            <img class="img-fluid rounded" src="assets/img/Ytrack_Admin6.png" alt="..." />
+                            <p class="fs-5 mb-4">On arrive ensuite sur la page EDIT de l’objet sur laquelle on va devoir ajouter les attributs de l’objet en cliquant sur le « ADD ».</p>
+                            <img class="img-fluid rounded" src="assets/img/Ytrack_Admin7.png" alt="..." />
+                            <p class="fs-5 mb-4">C’est terminer pour la partie Admin de Ytrack.</p>
+
+                        </section>
+                    </article>
+                    
+                </div>
+                <!-- Side widgets-->
+                <div class="col-lg-4">
+                    <!-- Categories widget-->
+                    <div class="card mb-4">
+                        <div class="card-header">Autres Articles</div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="présentation_entreprise.html">Présentation</a></li>
+                                        <li><a href="encadrement.html">Encadrement Étudiants</a></li>
+                                        <li><a href="bilan.html">Bilan</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul class="list-unstyled mb-0">
+                                        <li><a href="Ytrack.html">Ytrack</a></li>
+                                        <li><a href="mentor_academy.html">Mentor Academy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2021</p></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
